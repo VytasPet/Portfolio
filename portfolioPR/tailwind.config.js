@@ -15,7 +15,7 @@ module.exports = {
         lightBorder: "#EFEFEF",
         orange: "#FF9F41",
         blue: "#3EB8D4",
-        black: "#1C1C1C",
+        black: "#040404",
         white: "#FFFFFF",
         "border-gray-300": "#33333",
         lightBlue: "#DCF8FF",

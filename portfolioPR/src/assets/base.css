@@ -70,7 +70,17 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #040404;
 }
 .full {
   max-width: 1620px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.btn {
+  background-color: white;
+  padding: 15px 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
 }

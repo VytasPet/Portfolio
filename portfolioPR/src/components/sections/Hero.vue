@@ -5,6 +5,7 @@
       <h3 class="font-hero text-[75px] mb-[20px] text-center text-white">WEB</h3>
       <h3 class="font-hero text-[55px] mb-[20px] text-center text-white">DEVELOPER</h3>
       <p class="font-serif text-center my-[25px] text-[32px] text-white">Ongoing front-end developer</p>
+      <i class="text-white fa fa-camera-retro"></i>
       <button class="btn font-inter w-fit">Contact</button>
     </div>
     <img class="w-[40%] absolute top-[50%] left-[-5%] translate-y-[-50%]" :src="worms" alt="" />

@@ -31,8 +31,11 @@
       <img class="p-[8px]" :src="toRight" alt="" />
     </div>
     <div>
-      <h2 class="text-center">Technologies used to build the application services:</h2>
-      <div></div>
+      <div class="flex justify-center">
+        <button class="btn text-black flex items-center mt-[40px] py-3 px-8">
+          <span><i class="text-black fa fa-github-square fa-2x mr-[10px]" aria-hidden="true"></i></span>Check other repositories
+        </button>
+      </div>
     </div>
   </section>
 </template>

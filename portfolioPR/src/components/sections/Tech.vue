@@ -56,11 +56,15 @@
         </div>
       </div>
       <p class="mt-[45px] mb-[20px] font-robotoSlab text-[24px]">Other libraries and technologies:</p>
-      <div class="flex border border-white p-2 rounded-[15px] items-center max-w-full w-fit flex-wrap">
-        <p class="px-[15px] m-2 px-[8px] py-[3px] font-inter font-bold bg-white text-black rounded-[3px]">Styled-Components</p>
+      <div class="flex border border-white p-2 rounded-[15px] items-center max-w-full w-2/3 flex-wrap gap-5">
+        <img :src="compo" alt="" />
+        <img :src="firebase" alt="" />
+        <img :src="github" alt="" />
+        <img :src="git" alt="" />
+        <!-- <p class="px-[15px] m-2 px-[8px] py-[3px] font-inter font-bold bg-white text-black rounded-[3px]">Styled-Components</p>
         <p class="px-[15px] m-2 px-[8px] py-[3px] font-inter font-bold bg-white text-black rounded-[3px]">Firebase</p>
         <p class="px-[15px] m-2 px-[8px] py-[3px] font-inter font-bold bg-white text-black whitespace-nowrap rounded-[3px]">GitHub</p>
-        <p class="px-[15px] m-2 px-[8px] py-[3px] font-inter font-bold bg-white text-black whitespace-nowrap rounded-[3px]">Git</p>
+        <p class="px-[15px] m-2 px-[8px] py-[3px] font-inter font-bold bg-white text-black whitespace-nowrap rounded-[3px]">Git</p> -->
       </div>
     </div>
     <div class="px-[125px] mt-[100px] w-4/5">
@@ -82,6 +86,13 @@ import react from "@/assets/images/reactreact.svg"; // Adjust this path accordin
 import tailwind from "@/assets/images/Vectortailwind.svg"; // Adjust this path according to your project structure
 import Taglibr from "@/assets/images/Taglibr.svg"; // Adjust this path according to your project structure
 import vuejs from "@/assets/images/vuejs.svg"; // Adjust this path according to your project structure
+import compo from "@/assets/images/Tagcomponents.svg"; // Adjust this path according to your project structure
+import firebase from "@/assets/images/Tagfirebase.svg"; // Adjust this path according to your project structure
+import git from "@/assets/images/Taggitt.svg"; // Adjust this path according to your project structure
+import github from "@/assets/images/Taggithub.svg"; // Adjust this path according to your project structure
+import ufo from "@/assets/images/ufo.svg"; // Adjust this path according to your project structure
+import planets from "@/assets/images/planets.svg"; // Adjust this path according to your project structure
+import montas from "@/assets/images/montas.svg"; // Adjust this path according to your project structure
 
 export default {
   name: "Tech",
@@ -96,6 +107,13 @@ export default {
       tailwind,
       Taglibr,
       vuejs,
+      compo,
+      firebase,
+      git,
+      github,
+      ufo,
+      planets,
+      montas,
     };
   },
   methods: {},

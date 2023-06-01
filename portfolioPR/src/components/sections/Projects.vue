@@ -13,11 +13,15 @@
           <h2 class="font-robotoSlab font-[900] text-[50px] leading-[70px]">Quiz game</h2>
           <p class="font-robotoSlab font-[300] text-[22px]">Create, solve quizzes publicly or privately, and enhance your ratings on our Quiz Page!</p>
           <p class="my-[20px]">Technologies used:</p>
-          <div class="flex border border-white p-5 rounded-[15px] items-center max-w-full w-fit flex-wrap">
-            <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black rounded-[15px]">HTML</p>
+          <div class="flex gap-3 border border-white p-5 rounded-[15px] items-center max-w-full w-fit flex-wrap">
+            <img class="h-[30px]" :src="html" alt="" />
+            <img class="h-[30px]" :src="react" alt="" />
+            <img class="h-[30px]" :src="firebase" alt="" />
+            <img class="h-[30px]" :src="tailwind" alt="" />
+            <!-- <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black rounded-[15px]">HTML</p>
             <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black whitespace-nowrap rounded-[15px]">TailWind CSS</p>
             <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black whitespace-nowrap rounded-[15px]">React JS</p>
-            <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black rounded-[15px]">Firebase</p>
+            <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black rounded-[15px]">Firebase</p> -->
           </div>
           <button class="bg-grey px-[50px] py-[15px] rounded-[15px] font-DM font-bold my-[34px] w-fit">VISIT APP WEBSITE</button>
         </div>
@@ -46,6 +50,10 @@ import checked from "@/assets/images/Unioncheck.svg"; // Adjust this path accord
 import toLeft from "@/assets/images/left.svg"; // Adjust this path according to your project structure
 import toRight from "@/assets/images/right.svg"; // Adjust this path according to your project structure
 import center from "@/assets/images/center.svg"; // Adjust this path according to your project structure
+import firebase from "@/assets/images/Tagfirebase.svg"; // Adjust this path according to your project structure
+import react from "@/assets/images/Tagreact.svg"; // Adjust this path according to your project structure
+import html from "@/assets/images/Taghtml.svg"; // Adjust this path according to your project structure
+import tailwind from "@/assets/images/Tagtailwind.svg"; // Adjust this path according to your project structure
 
 export default {
   name: "Projects",
@@ -57,6 +65,10 @@ export default {
       toLeft,
       toRight,
       center,
+      firebase,
+      react,
+      html,
+      tailwind,
     };
   },
   methods: {},

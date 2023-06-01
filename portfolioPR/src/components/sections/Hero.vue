@@ -6,9 +6,12 @@
       <h3 class="font-hero text-[45px] mb-[20px] text-center text-white">DEVELOPER</h3>
       <p class="font-serif text-center my-[25px] text-[32px] text-white">Ongoing front-end developer</p>
       <div class="flex gap-[25px] mb-[55px]">
-        <i class="text-white fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <img :src="git" alt="" />
+        <img :src="mail" alt="" />
+        <img :src="linke" alt="" />
+        <!-- <i class="text-white fa fa-envelope fa-2x" aria-hidden="true"></i>
         <i class="text-white fa fa-github-square fa-2x" aria-hidden="true"></i>
-        <i class="text-white fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+        <i class="text-white fa fa-linkedin-square fa-2x" aria-hidden="true"></i> -->
       </div>
       <button class="btn font-inter w-fit">Contact</button>
     </div>
@@ -22,6 +25,9 @@
 import worms from "@/assets/images/sliekasF.svg"; // Adjust this path according to your project structure
 import astro from "@/assets/images/astro.svg"; // Adjust this path according to your project structure
 import down from "@/assets/images/down.svg"; // Adjust this path according to your project structure
+import git from "@/assets/images/githu.svg"; // Adjust this path according to your project structure
+import linke from "@/assets/images/linkedin.svg"; // Adjust this path according to your project structure
+import mail from "@/assets/images/mail.svg"; // Adjust this path according to your project structure
 
 export default {
   name: "Hero",
@@ -31,6 +37,9 @@ export default {
       worms,
       astro,
       down,
+      git,
+      linke,
+      mail,
     };
   },
   methods: {},

@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
@@ -26,8 +25,14 @@ module.exports = {
         lightRed: "#F8737F",
         profileBack: "#F9F9F9",
         green: "#6CD89E",
+        placeholder: "#040404",
+        custom: "#040404",
       },
-      // Define the `.right-arrow` and `.left-arrow` classes
+    },
+  },
+  variants: {
+    extend: {
+      placeholderColor: ["responsive", "dark", "focus", "hover", "active"],
     },
   },
   plugins: [],

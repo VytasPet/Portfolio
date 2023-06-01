@@ -4,6 +4,7 @@
     <Hero />
     <Projects />
     <Tech />
+    <Footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./components/layout/Header.vue";
 import Hero from "./components/sections/Hero.vue";
 import Projects from "./components/sections/Projects.vue";
 import Tech from "./components/sections/Tech.vue";
+import Footer from "./components/layout/Footer.vue";
 
 export default {
   name: "App",
@@ -20,6 +22,7 @@ export default {
     Hero,
     Projects,
     Tech,
+    Footer,
   },
 };
 </script>

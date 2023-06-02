@@ -1,8 +1,9 @@
 <template>
-  <header class="full py-[40px] bg-black">
+  <header class="full py-[40px] bg-black max-[500px]:px-[35px] max-[500px]:py-[40px]">
     <div class="flex justify-between">
       <h2 class="font-serif text-[28px] font-bold text-white">&lt;edu.&gt;</h2>
-      <nav class="flex text-[22px] items-center gap-[60px] font-serif text-white">
+      <img class="min-[500px]:hidden" :src="menu" alt="" />
+      <nav class="flex text-[22px] items-center gap-[60px] font-serif text-white max-[500px]:hidden">
         <a class="border-b" href="#">Home</a>
         <a href="#">Projects</a>
         <a href="#">Tech</a>
@@ -14,11 +15,15 @@
 </template>
 
 <script>
+import menu from "@/assets/images/mobmenu.svg"; // Adjust this path according to your project structure
+
 export default {
   name: "Header",
   props: {},
   data() {
-    return {};
+    return {
+      menu,
+    };
   },
   methods: {},
   computed: {},

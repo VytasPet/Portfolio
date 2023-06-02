@@ -1,5 +1,5 @@
 <template>
-  <section class="text-white mb-[30px] mt-[125px]">
+  <section class="relative text-white mb-[30px] mt-[125px]">
     <div class="w-4/5 px-[125px]">
       <h2 class="font-hero text-[40px]">TECH.</h2>
       <p class="font-robotoSlab font-bold text-[20px] mt-[10px] w-1/2">In my personal journey, I already worked with some techonologies, and here they are:</p>
@@ -67,6 +67,9 @@
         <p class="px-[15px] m-2 px-[8px] py-[3px] font-inter font-bold bg-white text-black whitespace-nowrap rounded-[3px]">Git</p> -->
       </div>
     </div>
+    <!-- <img class="w-[50%] absolute bottom-[0%] left-[10%] translate-y-[-50%]" :src="montas" alt="" /> -->
+    <img class="absolute right-0 max-[1150px]:w-1/3 bottom-10 max-[770px]:bottom-[200px] z-10" :src="planets" alt="" />
+    <img class="absolute w-1/3 right-80 max-[1500px]:right-20 max-[1500px]:top-[-50px] top-0 z-0" :src="ufo" alt="" />
     <div class="px-[125px] mt-[100px] w-4/5">
       <h2 class="font-hero text-[40px] leading-[90px] mb-[40px]">WANT TO CREATE PROJECT TOGETHER?</h2>
       <div class="w-full rounded-[20px] bg-white text-black flex justify-between items-center">

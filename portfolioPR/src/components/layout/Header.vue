@@ -2,8 +2,8 @@
   <header class="full py-[40px] bg-black max-[500px]:px-[35px] max-[500px]:py-[40px]">
     <div class="flex justify-between">
       <h2 class="font-serif text-[28px] font-bold text-white">&lt;edu.&gt;</h2>
-      <img class="min-[500px]:hidden" :src="menu" alt="" />
-      <nav class="flex text-[22px] items-center gap-[60px] font-serif text-white max-[500px]:hidden">
+      <img class="min-[600px]:hidden" :src="menu" alt="" />
+      <nav class="flex min-[950px]:text-[22px] min-[500px]:text-[15px] items-center gap-[60px] min-[500px]:gap-[30px] font-serif text-white max-[600px]:hidden">
         <a class="border-b" href="#">Home</a>
         <a href="#">Projects</a>
         <a href="#">Tech</a>

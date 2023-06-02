@@ -1,62 +1,64 @@
 <template>
   <section class="relative text-white mb-[30px] mt-[125px]">
-    <div class="w-4/5 px-[125px]">
+    <div class="w-4/5 px-[125px] max-[900px]:px-[35px] max-[650px]:w-full">
       <h2 class="font-hero text-[40px]">TECH.</h2>
-      <p class="font-robotoSlab font-bold text-[20px] mt-[10px] w-1/2">In my personal journey, I already worked with some techonologies, and here they are:</p>
-      <div class="mt-[85px]">
-        <img :src="web" alt="" />
-        <div class="mt-[35px] grid grid-rows-2 grid-flow-col gap-4 justify-center items-center w-fit">
-          <div class="flex gap-[25px] items-center">
-            <img class="max-h-[85px] w-[40%] max-w-[75px]" :src="html" alt="" />
-            <div class="flex flex-col w-[55%] justify-center">
-              <p class="font-serif font-bold text-[24px] text-white">HTML</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
+      <p class="font-robotoSlab font-bold text-[20px] mt-[10px] w-1/2 max-[900px]:w-2/3">In my personal journey, I already worked with some techonologies, and here they are:</p>
+      <div class="mt-[85px] max-[900px]:w-full max-[900px]:mt-[45px]">
+        <img class="max-[550px]:w-1/4" :src="web" alt="" />
+        <div class="flex items-center justify-center">
+          <div class="mt-[35px] grid grid-rows-2 grid-flow-col gap-4 justify-center w-fit items-center max-[550px]:gap-4 max-[900px]:gap-[50px]">
+            <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">
+              <img class="max-h-[85px] w-[40%] max-w-[75px] max-[550px]:w-[35%]" :src="html" alt="" />
+              <div class="flex flex-col w-[55%] justify-center">
+                <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">HTML</p>
+                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+              </div>
             </div>
-          </div>
-          <div class="flex gap-[25px] items-center">
-            <img class="max-h-[85px] w-[40%] max-w-[85px]" :src="css" alt="" />
-            <div class="flex flex-col w-[55%] justify-center">
-              <p class="font-serif font-bold text-[24px] text-white">CSS</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
+            <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">
+              <img class="max-h-[85px] w-[40%] max-w-[85px] max-[550px]:w-[35%]" :src="css" alt="" />
+              <div class="flex flex-col w-[55%] justify-center">
+                <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">CSS</p>
+                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+              </div>
             </div>
-          </div>
-          <div class="flex gap-[25px] items-center">
-            <img class="max-h-[75px] w-[40%] max-w-[85px]" :src="js" alt="" />
-            <div class="flex flex-col w-[55%] justify-center">
-              <p class="font-serif font-bold text-[24px] text-white">JavaScript</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
+            <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">
+              <img class="max-h-[75px] w-[40%] max-w-[85px] max-[550px]:w-[35%]" :src="js" alt="" />
+              <div class="flex flex-col w-[55%] justify-center">
+                <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[18px]">JavaScript</p>
+                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="mt-[85px]">
-        <img :src="Taglibr" alt="" />
-        <div class="mt-[35px] grid grid-rows-2 grid-flow-col gap-4 w-fit justify-items-end">
-          <div class="flex gap-[25px] items-center">
-            <img class="max-h-[105px] w-[40%] max-w-[75px]" :src="react" alt="" />
+      <div class="mt-[85px] max-[900px]:w-full max-[900px]:mt-[45px]">
+        <img class="max-[550px]:w-1/3" :src="Taglibr" alt="" />
+        <div class="mt-[35px] grid grid-rows-2 grid-flow-col gap-4 w-fit justify-items-end max-[550px]:gap-4 max-[900px]:gap-[50px]">
+          <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">
+            <img class="max-h-[105px] w-[40%] max-w-[75px] max-[550px]:w-[35%]" :src="react" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
-              <p class="font-serif font-bold text-[24px] text-white">React JS</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
+              <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">React JS</p>
+              <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
             </div>
           </div>
-          <div class="flex gap-[25px]">
-            <img class="max-h-[85px] w-[40%] max-w-[85px]" :src="tailwind" alt="" />
+          <div class="flex gap-[25px] items-center max-[550px]:gap-[15px]">
+            <img class="max-h-[85px] w-[40%] max-w-[85px] max-[550px]:w-[35%]" :src="tailwind" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
-              <p class="font-serif font-bold text-[24px] text-white">TailWind</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
+              <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">TailWind</p>
+              <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
             </div>
           </div>
-          <div class="flex gap-[25px] items-center">
-            <img class="max-h-[85px] w-[40%] max-w-[85px]" :src="vuejs" alt="" />
+          <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">
+            <img class="max-h-[85px] w-[40%] max-w-[85px] max-[550px]:w-[35%]" :src="vuejs" alt="" />
             <div class="flex flex-col w-[55%] items-start">
-              <p class="font-serif font-bold text-[24px] text-white">Vue JS</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%]">+4 months experience</p>
+              <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">Vue JS</p>
+              <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+4 months experience</p>
             </div>
           </div>
         </div>
       </div>
       <p class="mt-[45px] mb-[20px] font-robotoSlab text-[24px]">Other libraries and technologies:</p>
-      <div class="flex border border-white p-2 rounded-[15px] items-center max-w-full w-2/3 flex-wrap gap-5">
+      <div class="flex border border-white p-2 rounded-[15px] items-center max-w-full w-2/3 flex-wrap gap-5 max-[900px]:scale-75 max-[900px]:ml-[-40px]">
         <img :src="compo" alt="" />
         <img :src="firebase" alt="" />
         <img :src="github" alt="" />

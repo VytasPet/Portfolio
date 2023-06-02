@@ -6,22 +6,22 @@
       <div class="mt-[85px]">
         <img :src="web" alt="" />
         <div class="mt-[35px] grid grid-rows-2 grid-flow-col gap-4 justify-center items-center w-fit">
-          <div class="flex gap-[25px]">
-            <img class="max-h-[105px] w-[40%] max-w-[75px]" :src="html" alt="" />
+          <div class="flex gap-[25px] items-center">
+            <img class="max-h-[85px] w-[40%] max-w-[75px]" :src="html" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
               <p class="font-serif font-bold text-[24px] text-white">HTML</p>
               <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
             </div>
           </div>
-          <div class="flex gap-[25px]">
+          <div class="flex gap-[25px] items-center">
             <img class="max-h-[85px] w-[40%] max-w-[85px]" :src="css" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
               <p class="font-serif font-bold text-[24px] text-white">CSS</p>
               <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
             </div>
           </div>
-          <div class="flex gap-[25px]">
-            <img class="max-h-[85px] w-[40%] max-w-[85px]" :src="js" alt="" />
+          <div class="flex gap-[25px] items-center">
+            <img class="max-h-[75px] w-[40%] max-w-[85px]" :src="js" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
               <p class="font-serif font-bold text-[24px] text-white">JavaScript</p>
               <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
@@ -32,7 +32,7 @@
       <div class="mt-[85px]">
         <img :src="Taglibr" alt="" />
         <div class="mt-[35px] grid grid-rows-2 grid-flow-col gap-4 w-fit justify-items-end">
-          <div class="flex gap-[25px]">
+          <div class="flex gap-[25px] items-center">
             <img class="max-h-[105px] w-[40%] max-w-[75px]" :src="react" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
               <p class="font-serif font-bold text-[24px] text-white">React JS</p>
@@ -42,7 +42,7 @@
           <div class="flex gap-[25px]">
             <img class="max-h-[85px] w-[40%] max-w-[85px]" :src="tailwind" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
-              <p class="font-serif font-bold text-[24px] text-white">TailWind CSS</p>
+              <p class="font-serif font-bold text-[24px] text-white">TailWind</p>
               <p class="font-serif font-bold text-[18px] opacity-[55%]">+1 year experience</p>
             </div>
           </div>

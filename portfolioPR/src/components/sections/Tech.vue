@@ -72,8 +72,8 @@
     <!-- <img class="w-[50%] absolute bottom-[0%] left-[10%] translate-y-[-50%]" :src="montas" alt="" /> -->
     <img class="absolute right-0 max-[1150px]:w-1/3 bottom-10 max-[770px]:bottom-[200px] z-10" :src="planets" alt="" />
     <img class="absolute w-1/3 right-80 max-[1500px]:right-20 max-[1500px]:top-[-50px] top-0 z-0" :src="ufo" alt="" />
-    <div class="px-[125px] mt-[100px] w-4/5">
-      <h2 class="font-hero text-[40px] leading-[90px] mb-[40px]">WANT TO CREATE PROJECT TOGETHER?</h2>
+    <div class="px-[125px] mt-[100px] w-4/5 max-[900px]:px-[35px] max-[660px]:mt-[50px]">
+      <h2 class="font-hero text-[40px] leading-[90px] mb-[40px] max-[660px]:text-[25px] max-[660px]:leading-[50px] max-[660px]:mb-[20px]">WANT TO CREATE PROJECT TOGETHER?</h2>
       <div class="w-full rounded-[20px] bg-white text-black flex justify-between items-center">
         <input class="w-2/3 h-[40px] px-[25px] py-[10px] rounded-[20px] border-none placeholder-custom focus:outline-none" type="text" placeholder="Enter your e-mail here" />
         <button class="text-white bg-black px-[18px] py-[5px] rounded-[25px] my-[10px] mx-[20px] font-DM font-[500]">Contact</button>

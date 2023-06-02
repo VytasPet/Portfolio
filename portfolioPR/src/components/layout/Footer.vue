@@ -1,5 +1,5 @@
 <template>
-  <footer class="py-[60px] px-[125px]">
+  <footer class="py-[60px] px-[125px] max-[900px]:px-[35px]">
     <div>
       <div class="flex justify-between">
         <div class="w-1/3">

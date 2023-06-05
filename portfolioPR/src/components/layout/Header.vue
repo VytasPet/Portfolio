@@ -15,7 +15,7 @@
         <a @click="sectionOpen('home')" class="cursor-pointer hover:border-b">Home</a>
         <button @click="sectionOpen('projects')" class="cursor-pointer hover:border-b">Projects</button>
         <a @click="sectionOpen('tech')" class="cursor-pointer hover:border-b">Tech</a>
-        <a @click="$emit('contactOpen')" class="border border-white p-[5px] rounded-[5px] cursor-pointer hover:bg-white hover:border-black hover:text-black">Contact</a>
+        <a @click="$emit('contactOpen')" class="border border-white py-[5px] px-[10px] rounded-[5px] cursor-pointer hover:bg-white hover:border-black hover:text-black">Contact</a>
       </nav>
       <nav v-if="menuVisible" class="absolute bg-black left-[50%] translate-x-[-50%] top-[40vh] translate-y-[-20vh] w-4/5 text-white min-[600px]:hidden z-20">
         <div class="flex justify-end p-5">

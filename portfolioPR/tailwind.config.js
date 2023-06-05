@@ -19,7 +19,7 @@ module.exports = {
         "border-gray-300": "#33333",
         lightBlue: "#DCF8FF",
         lightGray: "#F6F6F6",
-        grey: "#346259",
+        grey: "#1D342F",
         red: "#F8737F",
         transparent: "#f2f2f200",
         lightRed: "#F8737F",

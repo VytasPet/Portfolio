@@ -9,12 +9,12 @@
         </div>
         <div class="flex gap-[25px] mb-[55px] items-center max-[650px]:flex-col">
           <div class="flex gap-[25px] items-center max-[650px]:gap-[40px]">
-            <img :src="git" alt="" />
-            <img :src="mail" alt="" />
-            <img :src="linke" alt="" />
+            <img class="cursor-pointer" :src="git" alt="" />
+            <img class="cursor-pointer" @click="sendEmail" :src="mail" alt="" />
+            <img class="cursor-pointer" :src="linke" alt="" />
           </div>
 
-          <button class="btn font-inter w-fit ml-[20px] px-[30px] py-[10px] max-[650px]:ml-0">Contact</button>
+          <!-- <button @click="sendEmail" class="btn font-inter w-fit ml-[20px] px-[30px] py-[10px] max-[650px]:ml-0">Contact</button> -->
         </div>
       </div>
       <p class="text-center text-white opacity-70">© Copyright 2023</p>
@@ -36,7 +36,12 @@ export default {
       mail,
     };
   },
-  methods: {},
+  methods: {
+    sendEmail() {
+      window.open = window.open("mailto:v.petrucionis@gmail.com", "_blank");
+    },
+  },
+
   computed: {},
 };
 </script>

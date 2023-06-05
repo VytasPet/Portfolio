@@ -7,19 +7,21 @@
       <p class="font-serif text-center my-[25px] text-[32px] text-white max-[500px]:text-[14px] max-[500px]:mb-[35px]">Ongoing front-end developer</p>
       <div class="flex flex-col justify-center items-center max-[500px]:flex-col-reverse">
         <div class="flex gap-[25px] mb-[55px] max-[500px]:mt-[25px]">
-          <a href="https://google.com" target="_blank">
+          <a href="https://github.com/VytasPet" target="_blank">
             <img :src="git" alt="" />
           </a>
 
-          <img :src="mail" alt="" />
-          <img :src="linke" alt="" />
+          <img class="cursor-pointer" @click="sendEmail" :src="mail" alt="" />
+          <a href="https://www.linkedin.com/in/vytautas-petrucionis-792334102/" target="_blank">
+            <img class="cursor-pointer" :src="git" alt="" />
+          </a>
         </div>
-        <button class="btn font-inter w-fit">Contact</button>
+        <button @click="$emit('contactOpen')" class="btn font-inter w-fit cursor-pointer border hover:bg-black hover:border-white hover:text-white">Contact</button>
       </div>
     </div>
     <img class="w-[30%] absolute bottom-[-10%] min-[940px]:top-[50%] min-[500px]:top-[80%] left-[-5%] translate-y-[-50%]" :src="worms" alt="" />
     <img class="w-[30%] absolute top-[10%] left-[90%] translate-x-[-50%] min-[500px]:w-1/4 min-[500px]:top-[0%] max-[500px]:top-[65%] max-[500px]:w-1/5" :src="astro" alt="" />
-    <img class="w-[25px] absolute left-[50%] translate-x-[-50%] bottom-[3%] max-[500px]:hidden" :src="down" alt="" />
+    <img @click="sectionOpen('projects')" class="w-[25px] cursor-pointer absolute left-[50%] translate-x-[-50%] bottom-[3%] max-[500px]:hidden" :src="down" alt="" />
   </section>
 </template>
 
@@ -50,7 +52,14 @@ export default {
 
     return { menuVisible };
   },
-  methods: {},
+  methods: {
+    sendEmail() {
+      window.open = window.open("mailto:v.petrucionis@gmail.com", "_blank");
+    },
+    sectionOpen(section) {
+      this.$emit("sectionOpen", section);
+    },
+  },
   computed: {},
 };
 </script>

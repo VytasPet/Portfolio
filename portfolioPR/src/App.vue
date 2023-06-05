@@ -1,10 +1,10 @@
 <template>
   <div class="mx-auto bg-black">
-    <Header class="full mx-auto" />
-    <Hero />
-    <Projects />
-    <Tech />
-    <Footer />
+    <Header @sectionOpen="scrollToSection" @contactOpen="openContact" class="full mx-auto" />
+    <Hero @sectionOpen="scrollToSection" @contactOpen="openContact" />
+    <Projects ref="projects" />
+    <Tech ref="tech" />
+    <Footer ref="Footer" />
   </div>
 </template>
 
@@ -24,6 +24,24 @@ export default {
     Projects,
     Tech,
     Footer,
+  },
+  methods: {
+    scrollToSection(section) {
+      this.$nextTick(() => {
+        const element = this.$refs[section].$el;
+        const top = element.offsetTop;
+
+        window.scrollTo({ top, behavior: "smooth" });
+      });
+    },
+    openContact() {
+      this.$nextTick(() => {
+        const element = this.$refs["Footer"].$el;
+        const top = element.offsetTop;
+
+        window.scrollTo({ top, behavior: "smooth" });
+      });
+    },
   },
   setup() {
     const menuVisible = ref(false);

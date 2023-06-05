@@ -27,7 +27,9 @@
             <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black whitespace-nowrap rounded-[15px]">React JS</p>
             <p class="px-[15px] m-2 p-[5px] font-inter font-bold bg-white text-black rounded-[15px]">Firebase</p> -->
           </div>
-          <button class="bg-grey px-[50px] py-[15px] rounded-[15px] font-DM font-bold my-[34px] w-fit">VISIT APP WEBSITE</button>
+          <a class="flex w-full max-[750px]:justify-center" href="https://modern-quiz.netlify.app/">
+            <button class="bg-grey items-center px-[50px] py-[15px] rounded-[15px] font-DM font-bold my-[34px] w-fit hover:bg-white hover:text-black">VISIT APP WEBSITE</button>
+          </a>
         </div>
       </div>
       <div class="flex max-[940px]:w-2/5 max-[740px]:justify-center max-[740px]:hidden">
@@ -35,16 +37,18 @@
       </div>
     </div>
     <div class="flex gap-[25px] justify-center items-center">
-      <img class="w-[%] p-[8px]" :src="toLeft" alt="" />
+      <img class="cursor-pointer w-[%] p-[8px]" :src="toLeft" alt="" />
       <img class="w-[20px] h-[20px] p-1 border rounded-[50px]" :src="center" alt="" />
       <!-- <img :src="center" alt="" /> -->
-      <img class="p-[8px]" :src="toRight" alt="" />
+      <img class="cursor-pointer p-[8px]" :src="toRight" alt="" />
     </div>
     <div>
       <div class="flex justify-center">
-        <button class="btn text-black flex items-center mt-[40px] py-3 px-8 max-[740px]:py-2 max-[740px]:px-4 max-[740px]:text-[14px]">
-          <span><i class="text-black fa fa-github-square fa-2x mr-[10px]" aria-hidden="true"></i></span>Check other repositories
-        </button>
+        <a href="https://github.com/VytasPet">
+          <button class="btn text-black flex items-center mt-[40px] py-3 px-8 max-[740px]:py-2 max-[740px]:px-4 max-[740px]:text-[14px] hover:outline hover:outline-black">
+            <span><i class="text-black fa fa-github-square fa-2x mr-[10px]" aria-hidden="true"></i></span>Check other repositories
+          </button>
+        </a>
       </div>
     </div>
   </section>

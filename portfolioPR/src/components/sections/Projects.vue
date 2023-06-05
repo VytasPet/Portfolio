@@ -14,7 +14,7 @@
           <p class="font-robotoSlab font-[300] text-[22px]">Create, solve quizzes publicly or privately, and enhance your ratings on our Quiz Page!</p>
 
           <div class="flex w-full max-[740px]:justify-center min-[740px]:hidden">
-            <img class="w-full max-h-[400px] max-w-[400px] max-[940px]:w-[300px] max-[940px]:h-[200px] mt-[20px] rounded-[16px]" :src="quizG" alt="" />
+            <img class="w-full max-h-[400px] max-w-[400px] max-[940px]:w-[300px] max-[940px]:h-[200px] mt-[20px] rounded-[16px]" :src="bquizG" alt="" />
           </div>
           <p class="my-[20px]">Technologies used:</p>
           <div class="flex gap-3 border border-white p-5 rounded-[15px] items-center max-w-full w-fit flex-wrap">
@@ -31,13 +31,13 @@
         </div>
       </div>
       <div class="flex max-[940px]:w-2/5 max-[740px]:justify-center max-[740px]:hidden">
-        <img class="w-full max-h-[400px] max-w-[400px] max-[940px]:w-[300px] max-[940px]:h-[300px] rounded-[16px] opacity-80" :src="quizG" alt="" />
+        <img class="w-full max-h-[400px] max-w-[400px] max-[940px]:w-[300px] max-[940px]:h-[300px] rounded-[16px]" :src="bquizG" alt="" />
       </div>
     </div>
     <div class="flex gap-[25px] justify-center items-center">
       <img class="w-[%] p-[8px]" :src="toLeft" alt="" />
       <img class="w-[20px] h-[20px] p-1 border rounded-[50px]" :src="center" alt="" />
-      <img :src="center" alt="" />
+      <!-- <img :src="center" alt="" /> -->
       <img class="p-[8px]" :src="toRight" alt="" />
     </div>
     <div>
@@ -52,6 +52,7 @@
 
 <script>
 import quizG from "@/assets/images/quizG.png"; // Adjust this path according to your project structure
+import bquizG from "@/assets/images/blueQuiz.png"; // Adjust this path according to your project structure
 import checked from "@/assets/images/Unioncheck.svg"; // Adjust this path according to your project structure
 import toLeft from "@/assets/images/left.svg"; // Adjust this path according to your project structure
 import toRight from "@/assets/images/right.svg"; // Adjust this path according to your project structure
@@ -67,6 +68,7 @@ export default {
   data() {
     return {
       quizG,
+      bquizG,
       checked,
       toLeft,
       toRight,

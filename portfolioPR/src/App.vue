@@ -14,6 +14,7 @@ import Hero from "./components/sections/Hero.vue";
 import Projects from "./components/sections/Projects.vue";
 import Tech from "./components/sections/Tech.vue";
 import Footer from "./components/layout/Footer.vue";
+import { provide, ref } from "vue";
 
 export default {
   name: "App",
@@ -23,6 +24,13 @@ export default {
     Projects,
     Tech,
     Footer,
+  },
+  setup() {
+    const menuVisible = ref(false);
+
+    provide("menuVisible", menuVisible);
+
+    return { menuVisible };
   },
 };
 </script>

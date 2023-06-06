@@ -1,8 +1,8 @@
 <template>
   <header class="relative pt-[30px] pb-[10px] bg-black max-[500px]:px-[35px] sticky top-0 z-50">
-    <div class="flex justify-between mx-auto px-12 max-w-[1640px]">
+    <div class="flex justify-between mx-auto px-12 max-w-[1640px] max-[500px]:px-[0]">
       <a href="/">
-        <h2 class="cursor-pointer font-serif text-[28px] font-bold text-white">&lt;pet.&gt;</h2>
+        <h2 class="cursor-pointer font-serif text-[28px] font-bold text-white max-[500px]:text-[22px]">&lt;pet.&gt;</h2>
       </a>
       <img
         :class="{ outline: menuVisible, 'outline-white': menuVisible }"

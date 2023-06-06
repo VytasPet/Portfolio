@@ -1,6 +1,6 @@
 <template>
-  <header class="full relative pt-[30px] pb-[10px] bg-black max-[500px]:px-[35px] sticky top-0 z-50">
-    <div class="flex justify-between">
+  <header class="relative pt-[30px] pb-[10px] bg-black max-[500px]:px-[35px] sticky top-0 z-50">
+    <div class="flex justify-between mx-auto px-12 max-w-[1640px]">
       <a href="/">
         <h2 class="cursor-pointer font-serif text-[28px] font-bold text-white">&lt;pet.&gt;</h2>
       </a>

@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto bg-black">
-    <Header @sectionOpen="scrollToSection" @contactOpen="openContact" class="full mx-auto" />
+    <Header @sectionOpen="scrollToSection" @contactOpen="openContact" />
     <Hero @sectionOpen="scrollToSection" @contactOpen="openContact" />
     <Projects ref="projects" />
     <Tech ref="tech" />

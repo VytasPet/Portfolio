@@ -1,5 +1,5 @@
 <template>
-  <header class="full relative py-[40px] bg-black max-[500px]:px-[35px] max-[500px]:py-[40px] sticky top-0 z-50">
+  <header class="full relative pt-[30px] pb-[10px] bg-black max-[500px]:px-[35px] sticky top-0 z-50">
     <div class="flex justify-between">
       <a href="/">
         <h2 class="cursor-pointer font-serif text-[28px] font-bold text-white">&lt;pet.&gt;</h2>

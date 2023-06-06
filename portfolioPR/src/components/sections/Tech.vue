@@ -2,7 +2,11 @@
   <section class="relative text-white mt-[125px]">
     <div class="w-4/5 px-[125px] max-[900px]:px-[35px] max-[750px]:w-full">
       <h2 class="font-hero text-[40px] pt-[50px]">TECH.</h2>
-      <p class="font-robotoSlab font-bold text-[20px] mt-[10px] w-1/2 max-[600px]:w-full max-[900px]:w-2/3">In my personal journey, I already worked with some techonologies, and here they are:</p>
+      <p class="font-robotoSlab font-[500] text-[16px] mt-[20px] w-2/3 max-[750px]:w-4/5">
+        Before turning to the tech industry, I used to craft and sell aesthetic phone cases online. Now, as a former CEO of innovative NFT projects, I bring a unique blend of creative e-commerce
+        experience and project management skills to the world of web development.
+      </p>
+      <p class="font-robotoSlab font-[500] text-[16px] mt-[10px] w-2/3 max-[750px]:w-4/5">In my personal journey, I already worked with some techonologies, and here they are:</p>
       <div class="flex justify-center">
         <img class="w-1/2 min-[750px]:hidden mt-[30px]" :src="ufo" alt="" />
       </div>
@@ -14,21 +18,21 @@
               <img class="max-h-[85px] w-[40%] max-w-[75px] max-[550px]:w-[35%]" :src="html" alt="" />
               <div class="flex flex-col w-[55%] justify-center">
                 <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">HTML</p>
-                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+8 months experience</p>
               </div>
             </div>
             <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">
               <img class="max-h-[85px] w-[40%] max-w-[85px] max-[550px]:w-[35%]" :src="css" alt="" />
               <div class="flex flex-col w-[55%] justify-center">
                 <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">CSS</p>
-                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+8 months experience</p>
               </div>
             </div>
             <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">
               <img class="max-h-[75px] w-[40%] max-w-[85px] max-[550px]:w-[35%]" :src="js" alt="" />
               <div class="flex flex-col w-[55%] justify-center">
                 <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[18px]">JavaScript</p>
-                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+                <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+7 months experience</p>
               </div>
             </div>
           </div>
@@ -41,14 +45,14 @@
             <img class="max-h-[105px] w-[40%] max-w-[75px] max-[550px]:w-[35%]" :src="react" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
               <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">React JS</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+              <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+6 months experience</p>
             </div>
           </div>
           <div class="flex gap-[25px] items-center max-[550px]:gap-[15px]">
             <img class="max-h-[85px] w-[40%] max-w-[85px] max-[550px]:w-[35%]" :src="tailwind" alt="" />
             <div class="flex flex-col w-[55%] justify-center">
               <p class="font-serif font-bold text-[24px] text-white max-[550px]:text-[16px]">TailWind</p>
-              <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+1 year experience</p>
+              <p class="font-serif font-bold text-[18px] opacity-[55%] max-[550px]:text-[12px]">+3 months experience</p>
             </div>
           </div>
           <div class="flex gap-[25px] max-[550px]:gap-[15px] items-center">

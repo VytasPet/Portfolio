@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto bg-black">
     <Header @sectionOpen="scrollToSection" @contactOpen="openContact" />
-    <Hero @sectionOpen="scrollToSection" @contactOpen="openContact" />
+    <Hero ref="hero" @sectionOpen="scrollToSection" @contactOpen="openContact" />
     <Projects ref="projects" />
     <Tech ref="tech" />
     <Footer ref="Footer" />
@@ -31,7 +31,7 @@ export default {
         const element = this.$refs[section].$el;
         const top = element.offsetTop;
 
-        window.scrollTo({ top, behavior: "smooth" });
+        window.scrollTo({ top: top - 80, behavior: "smooth" });
       });
     },
     openContact() {
@@ -39,7 +39,7 @@ export default {
         const element = this.$refs["Footer"].$el;
         const top = element.offsetTop;
 
-        window.scrollTo({ top, behavior: "smooth" });
+        window.scrollTo({ top: top - 570, behavior: "smooth" });
       });
     },
   },

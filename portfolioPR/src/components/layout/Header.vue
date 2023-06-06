@@ -12,7 +12,7 @@
         @click="openMenu"
       />
       <nav class="flex min-[950px]:text-[22px] min-[500px]:text-[15px] items-center gap-[60px] min-[500px]:gap-[30px] font-serif text-white max-[600px]:hidden">
-        <a @click="sectionOpen('home')" class="cursor-pointer hover:border-b">Home</a>
+        <a @click="sectionOpen('hero')" class="cursor-pointer hover:border-b">Home</a>
         <button @click="sectionOpen('projects')" class="cursor-pointer hover:border-b">Projects</button>
         <a @click="sectionOpen('tech')" class="cursor-pointer hover:border-b">Tech</a>
         <a @click="$emit('contactOpen')" class="border border-white py-[5px] px-[10px] rounded-[5px] cursor-pointer hover:bg-white hover:border-black hover:text-black">Contact</a>
@@ -22,7 +22,7 @@
           <img class="cursor-pointer" :src="exit" alt="" @click="closeMenu" />
         </div>
         <div class="flex flex-col pt-[40px] pb-[80px] justify-center items-center gap-[30px]">
-          <a @click="sectionOpen('home')">Home</a>
+          <a @click="sectionOpen('hero')">Home</a>
           <a @click="sectionOpen('projects')">Projects</a>
           <a @click="sectionOpen('tech')">Tech</a>
           <a @click="handleContactMob" class="border border-white p-[5px] rounded-[5px]">Contact</a>

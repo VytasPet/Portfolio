@@ -22,7 +22,7 @@
           <img class="cursor-pointer" :src="exit" alt="" @click="closeMenu" />
         </div>
         <div class="flex flex-col pt-[40px] pb-[80px] justify-center items-center gap-[30px]">
-          <a @click="sectionOpen('home')" class="border-b">Home</a>
+          <a @click="sectionOpen('home')">Home</a>
           <a @click="sectionOpen('projects')">Projects</a>
           <a @click="sectionOpen('tech')">Tech</a>
           <a @click="handleContactMob" class="border border-white p-[5px] rounded-[5px]">Contact</a>

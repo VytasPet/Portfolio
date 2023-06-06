@@ -13,7 +13,7 @@
 
           <img class="cursor-pointer" @click="sendEmail" :src="mail" alt="" />
           <a href="https://www.linkedin.com/in/vytautas-petrucionis-792334102/" target="_blank">
-            <img class="cursor-pointer" :src="git" alt="" />
+            <img class="cursor-pointer" :src="linke" alt="" />
           </a>
         </div>
         <button @click="$emit('contactOpen')" class="btn font-inter w-fit cursor-pointer border hover:bg-black hover:border-white hover:text-white">Contact</button>

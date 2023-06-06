@@ -3,7 +3,7 @@
     <div class="w-4/5 px-[125px] max-[900px]:px-[35px] max-[750px]:w-full">
       <h2 class="font-hero text-[40px] pt-[50px]">TECH.</h2>
       <p class="font-robotoSlab font-[500] text-[16px] mt-[20px] w-2/3 max-[750px]:w-4/5">
-        Before turning to the tech industry, I used to craft and sell aesthetic phone cases online. Now, as a former CEO of innovative NFT projects, I bring a unique blend of creative e-commerce
+        Before turning to the tech industry, I used to craft and sell aesthetic phone cases online. Later was working on others IT technologies like NFT. I bring a unique blend of creative e-commerce
         experience and project management skills to the world of web development.
       </p>
       <p class="font-robotoSlab font-[500] text-[16px] mt-[10px] w-2/3 max-[750px]:w-4/5">In my personal journey, I already worked with some techonologies, and here they are:</p>

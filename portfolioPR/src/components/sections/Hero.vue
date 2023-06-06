@@ -1,7 +1,7 @@
 <template>
   <section :class="{ 'blur-[5px]': menuVisible }" class="relative h-[85vh]">
     <div class="absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] flex flex-col items-center justify-center pb-[50px]">
-      <h3 class="font-hero text-[30px] mb-[20px] text-center text-white max-[500px]:text-[25px]">HELLO, I'M</h3>
+      <h3 class="font-hero text-[30px] mb-[20px] text-center text-white max-[500px]:text-[25px]">HELLO, I'M A</h3>
       <h3 class="font-hero text-[65px] mb-[20px] text-center text-white max-[500px]:text-[50px]">WEB</h3>
       <h3 class="font-hero text-[45px] mb-[20px] text-center text-white max-[500px]:text-[32px]">DEVELOPER</h3>
       <p class="font-serif text-center my-[25px] text-[32px] text-white max-[500px]:text-[14px] max-[500px]:mb-[35px]">Ongoing front-end developer</p>
